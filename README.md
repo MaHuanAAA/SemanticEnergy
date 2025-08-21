@@ -123,7 +123,7 @@ You can get in touch with us by sending an email to the corresponding author. If
 ```
 @article{ma2025semantic,
   title={Semantic Energy: Detecting LLM Hallucination Beyond Entropy},
-  author={Ma, Huan and Pan, Jiadong and Liu, Jing and Chen, Yan and Joey Tianyi Zhou and Wang, Guangyu and Hu, Qinghua and Wu, Hua and Zhang, Changqing and Wang Haifeng},
+  author={Ma, Huan and Pan, Jiadong and Liu, Jing and Chen, Yan and Joey Tianyi Zhou and Wang, Guangyu and Hu, Qinghua and Wu, Hua and Zhang, Changqing and Wang, Haifeng},
   journal={arXiv preprint arXiv:2508.14496},
   year={2025}
 }
