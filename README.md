@@ -113,6 +113,9 @@ analyser = SemanticAnalyser()
 ### Step 3: Uncertainty Estimation
 The final step is to calculate the Semantic Energy. This paradigm is generally consistent with Semantic Entropy, with the primary difference being that the probability used for estimating uncertainty is replaced with logits. For the code, please refer to ```semantic_energy.ipynb```.
 
+**Reliability of a single response:**
+The reliability of a single response is equal to the reliability of the cluster it belongs to. For example, if a question is answered 5 times, and the answers are semantically clustered as ```(answer1, answer2, answer3)``` and ```(answer4, answer5)```, then we can compute the energies of the two clusters, namely ```energy_cluster1``` and ```energy_cluster2```. Consequently, the reliability of ```answer1, answer2, answer3``` is given by the value computed from ```energy_cluster1```, while the reliability of ```answer4, answer5``` is given by the value computed from ```energy_cluster2```.
+
 
 ### Contact Us
 You can get in touch with us by sending an email to the corresponding author. If the corresponding author receives the email, they will convey its contents to me. For a faster response, you can directly raise an issue in this project, and I will do my best to reply to your question on the same day.
